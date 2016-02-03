@@ -15,4 +15,21 @@ File Description: Place here your custom CSS styles
   .main-navigation .navbar-nav > li {
       margin: 0 0 0 10px !important;
   }
+  .bigger-front-text{
+    font-size: 18px;
+  }
 }
+
+#steves-name{
+  font-style: normal;
+  color: #38c7f4
+}
+
+#hi{
+  font-style: normal;
+  font-size: 50px;
+}
+
+/*.bigger-front-text{
+  font-size: 25px;
+}*/
