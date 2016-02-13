@@ -47,3 +47,23 @@ File Description: Place here your custom CSS styles
   padding-left: 0px;
   padding-top: 0px;
 }
+
+#wifm-logo{
+  display: inline-block;
+}
+
+#wifm-title{
+  font-weight: 100;
+}
+
+#wifm-subtitle{
+  color: #15b5e5
+}
+
+#wifm-title-hr{
+  border-top: 2px solid #eee
+}
+
+#wifm-site-logo{
+  display:none;
+}
