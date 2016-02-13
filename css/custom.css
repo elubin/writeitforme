@@ -18,6 +18,15 @@ File Description: Place here your custom CSS styles
   .bigger-front-text{
     font-size: 18px;
   }
+  #wifm-navbar-brand{
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #wifm-navbar-brand{
+    display: block;
+  }
 }
 
 #steves-name{
@@ -33,3 +42,8 @@ File Description: Place here your custom CSS styles
 /*.bigger-front-text{
   font-size: 25px;
 }*/
+
+#wifm-navbar-brand{
+  padding-left: 0px;
+  padding-top: 0px;
+}
