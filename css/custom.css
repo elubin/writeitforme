@@ -18,14 +18,26 @@ File Description: Place here your custom CSS styles
   .bigger-front-text{
     font-size: 18px;
   }
-  #wifm-navbar-brand{
-    display: none;
+
+  #wifm-second-about{
+    border-left: 1px dotted;
+    border-right: 1px dotted;
+  }
+
+  #wifm-fourth-about{
+    border-left: 1px dotted;
   }
 }
 
-@media (max-width: 767px) {
-  #wifm-navbar-brand{
-    display: block;
+@media (max-width: 768px) {
+  #wifm-blue-hummingbird-text{
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px){
+  h4.wifm-about-category-title{
+    font-size: 14px;
   }
 }
 
@@ -42,11 +54,6 @@ File Description: Place here your custom CSS styles
 /*.bigger-front-text{
   font-size: 25px;
 }*/
-
-#wifm-navbar-brand{
-  padding-left: 0px;
-  padding-top: 0px;
-}
 
 #wifm-logo{
   display: inline-block;
@@ -66,4 +73,24 @@ File Description: Place here your custom CSS styles
 
 #wifm-site-logo{
   display:none;
+}
+
+/*#wifm-about-top-row{
+  border-bottom: 1px dotted;
+}
+
+#wifm-upper-right-about{
+  border-left: 1px dotted;
+}
+
+#wifm-lower-right-about{
+  border-left: 1px dotted;
+}*/
+
+h4.wifm-about-category-title{
+  font-size: 15px;
+}
+
+h1.wifm-about-amount{
+  font-size: 36px;
 }
