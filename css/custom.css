@@ -41,6 +41,12 @@ File Description: Place here your custom CSS styles
   }
 }
 
+@media (min-width: 992px){
+  .picture-card-text {
+    margin-top: 10px;
+  }
+}
+
 #steves-name{
   font-style: normal;
   color: #38c7f4
